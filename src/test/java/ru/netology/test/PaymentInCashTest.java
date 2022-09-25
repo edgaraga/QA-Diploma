@@ -320,9 +320,9 @@ public class PaymentInCashTest {
     }
 
     @Description
-    //2.20_Негативный тест в поле "Владелец" ввести русские буквы, числа и спецсинволы
+    //2.20_Негативный тест в поле "Владелец" ввести русские буквы, числа и спецсимволы
     @Test
-    void shouldRussianLettersAndNumbersAndSpecialSymbolsInTheOwner() { //В поле "Владелец" ввести русские буквы, числа и спецсинволы
+    void shouldRussianLettersAndNumbersAndSpecialSymbolsInTheOwner() { //В поле "Владелец" ввести русские буквы, числа и спецсимволы
         val cardNumber = DataHelper.getFirstCardNumber();
         val month = DataHelper.getValidMonth(); //
         val year = DataHelper.getValidYear();
